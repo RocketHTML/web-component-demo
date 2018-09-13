@@ -1,0 +1,12 @@
+import { BearerFetch, Component, Intent } from '@bearer/core'
+
+@Component({
+  tag: 'list-pull-requests',
+  shadow: true
+})
+export class ListPullRequests {
+  @Intent('listPullRequests') fetcher: BearerFetch
+  render() {
+    return <bearer-scrollable fetcher={this.fetcher} />
+  }
+}

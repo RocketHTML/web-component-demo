@@ -1,0 +1,23 @@
+{
+  "authorizationURL": "https://github.com/login/oauth/authorize",
+  "tokenURL": "https://github.com/login/oauth/ebffe2a68d46a6b37d20a2b4e130f2279c2b07b8",
+  "authType": "oauth2",
+  "tokenParams": {},
+  "authorizationParams": {},
+  "config": {
+    "accessType": "offline",
+    "scope": ["repo"]
+  },
+  "setupViews": [
+    {
+      "type": "text",
+      "label": "Client ID",
+      "controlName": "clientID"
+    },
+    {
+      "type": "password",
+      "label": "Client Secret",
+      "controlName": "clientSecret"
+    }
+  ]
+}
