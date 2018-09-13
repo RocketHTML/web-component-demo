@@ -1,0 +1,4 @@
+module.exports = {
+  global: { authAccess: { accessToken: 'ebffe2a68d46a6b37d20a2b4e130f2279c2b07b8'} },
+  // IntentName: { customField: 'Custom Value that will be added to the context' }
+}

@@ -1,6 +1,6 @@
 {
   "authorizationURL": "https://github.com/login/oauth/authorize",
-  "tokenURL": "https://github.com/login/oauth/ebffe2a68d46a6b37d20a2b4e130f2279c2b07b8",
+  "tokenURL": "https://github.com/login/oauth/{{ github token revoked! }}",
   "authType": "oauth2",
   "tokenParams": {},
   "authorizationParams": {},
